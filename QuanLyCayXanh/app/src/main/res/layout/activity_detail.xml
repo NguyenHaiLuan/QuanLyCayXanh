@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:orientation="vertical"
+    android:background="@drawable/caybg">
+
+    <ImageView
+        android:id="@+id/hinhchitiet"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cayxanh"/>
+
+    <TextView
+        android:id="@+id/tencay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Lợi ích của cây xanh"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cảm giác mang lại từ những cây trồng này là một cách tuyệt vời để tạo nên năng lượng tích cực, thêm màu sắc cho không gian nội thất cũng như giúp bạn luyện tập kỹ năng làm vườn.
+
+Nhiều người thậm chí còn thích trồng cây trong nhà hút khí độc nhằm mục đích làm sạch không khí."
+        android:layout_marginTop="30dp"
+        android:textSize="24sp"/>
+
+</LinearLayout>
